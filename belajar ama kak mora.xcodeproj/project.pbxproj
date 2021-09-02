@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		862F62F425C111F2002C7DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F62F325C111F2002C7DA7 /* AppDelegate.swift */; };
+		862F62F625C111F2002C7DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F62F525C111F2002C7DA7 /* SceneDelegate.swift */; };
+		862F62F825C111F2002C7DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F62F725C111F2002C7DA7 /* ContentView.swift */; };
+		862F62FA25C111F3002C7DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F62F925C111F3002C7DA7 /* Assets.xcassets */; };
+		862F62FD25C111F3002C7DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F62FC25C111F3002C7DA7 /* Preview Assets.xcassets */; };
+		862F630025C111F3002C7DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862F62FE25C111F3002C7DA7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		862F630725C111F3002C7DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 862F62E825C111F2002C7DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862F62EF25C111F2002C7DA7;
+			remoteInfo = "belajar ama kak mora";
+		};
+		862F631225C111F4002C7DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 862F62E825C111F2002C7DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862F62EF25C111F2002C7DA7;
+			remoteInfo = "belajar ama kak mora";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		862F62F025C111F2002C7DA7 /* belajar ama kak mora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "belajar ama kak mora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862F62F325C111F2002C7DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		862F62F525C111F2002C7DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		862F62F725C111F2002C7DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		862F62F925C111F3002C7DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		862F62FC25C111F3002C7DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		862F62FF25C111F3002C7DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		862F630125C111F3002C7DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862F630625C111F3002C7DA7 /* belajar ama kak moraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "belajar ama kak moraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862F631125C111F4002C7DA7 /* belajar ama kak moraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "belajar ama kak moraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		862F62ED25C111F2002C7DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630325C111F3002C7DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630E25C111F4002C7DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		862F62E725C111F2002C7DA7 = {
+			isa = PBXGroup;
+			children = (
+				862F62F225C111F2002C7DA7 /* belajar ama kak mora */,
+				862F62F125C111F2002C7DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		862F62F125C111F2002C7DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				862F62F025C111F2002C7DA7 /* belajar ama kak mora.app */,
+				862F630625C111F3002C7DA7 /* belajar ama kak moraTests.xctest */,
+				862F631125C111F4002C7DA7 /* belajar ama kak moraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		862F62F225C111F2002C7DA7 /* belajar ama kak mora */ = {
+			isa = PBXGroup;
+			children = (
+				862F62F325C111F2002C7DA7 /* AppDelegate.swift */,
+				862F62F525C111F2002C7DA7 /* SceneDelegate.swift */,
+				862F62F725C111F2002C7DA7 /* ContentView.swift */,
+				862F62F925C111F3002C7DA7 /* Assets.xcassets */,
+				862F62FE25C111F3002C7DA7 /* LaunchScreen.storyboard */,
+				862F630125C111F3002C7DA7 /* Info.plist */,
+				862F62FB25C111F3002C7DA7 /* Preview Content */,
+			);
+			path = "belajar ama kak mora";
+			sourceTree = "<group>";
+		};
+		862F62FB25C111F3002C7DA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				862F62FC25C111F3002C7DA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		862F62EF25C111F2002C7DA7 /* belajar ama kak mora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862F631A25C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak mora" */;
+			buildPhases = (
+				862F62EC25C111F2002C7DA7 /* Sources */,
+				862F62ED25C111F2002C7DA7 /* Frameworks */,
+				862F62EE25C111F2002C7DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "belajar ama kak mora";
+			productName = "belajar ama kak mora";
+			productReference = 862F62F025C111F2002C7DA7 /* belajar ama kak mora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		862F630525C111F3002C7DA7 /* belajar ama kak moraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862F631D25C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak moraTests" */;
+			buildPhases = (
+				862F630225C111F3002C7DA7 /* Sources */,
+				862F630325C111F3002C7DA7 /* Frameworks */,
+				862F630425C111F3002C7DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				862F630825C111F3002C7DA7 /* PBXTargetDependency */,
+			);
+			name = "belajar ama kak moraTests";
+			productName = "belajar ama kak moraTests";
+			productReference = 862F630625C111F3002C7DA7 /* belajar ama kak moraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		862F631025C111F4002C7DA7 /* belajar ama kak moraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862F632025C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak moraUITests" */;
+			buildPhases = (
+				862F630D25C111F4002C7DA7 /* Sources */,
+				862F630E25C111F4002C7DA7 /* Frameworks */,
+				862F630F25C111F4002C7DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				862F631325C111F4002C7DA7 /* PBXTargetDependency */,
+			);
+			name = "belajar ama kak moraUITests";
+			productName = "belajar ama kak moraUITests";
+			productReference = 862F631125C111F4002C7DA7 /* belajar ama kak moraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		862F62E825C111F2002C7DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					862F62EF25C111F2002C7DA7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					862F630525C111F3002C7DA7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 862F62EF25C111F2002C7DA7;
+					};
+					862F631025C111F4002C7DA7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 862F62EF25C111F2002C7DA7;
+					};
+				};
+			};
+			buildConfigurationList = 862F62EB25C111F2002C7DA7 /* Build configuration list for PBXProject "belajar ama kak mora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 862F62E725C111F2002C7DA7;
+			productRefGroup = 862F62F125C111F2002C7DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				862F62EF25C111F2002C7DA7 /* belajar ama kak mora */,
+				862F630525C111F3002C7DA7 /* belajar ama kak moraTests */,
+				862F631025C111F4002C7DA7 /* belajar ama kak moraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		862F62EE25C111F2002C7DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F630025C111F3002C7DA7 /* LaunchScreen.storyboard in Resources */,
+				862F62FD25C111F3002C7DA7 /* Preview Assets.xcassets in Resources */,
+				862F62FA25C111F3002C7DA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630425C111F3002C7DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630F25C111F4002C7DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		862F62EC25C111F2002C7DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F62F425C111F2002C7DA7 /* AppDelegate.swift in Sources */,
+				862F62F625C111F2002C7DA7 /* SceneDelegate.swift in Sources */,
+				862F62F825C111F2002C7DA7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630225C111F3002C7DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F630D25C111F4002C7DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		862F630825C111F3002C7DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862F62EF25C111F2002C7DA7 /* belajar ama kak mora */;
+			targetProxy = 862F630725C111F3002C7DA7 /* PBXContainerItemProxy */;
+		};
+		862F631325C111F4002C7DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862F62EF25C111F2002C7DA7 /* belajar ama kak mora */;
+			targetProxy = 862F631225C111F4002C7DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		862F62FE25C111F3002C7DA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862F62FF25C111F3002C7DA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		862F631825C111F4002C7DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		862F631925C111F4002C7DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		862F631B25C111F4002C7DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"belajar ama kak mora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "belajar ama kak mora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-mora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		862F631C25C111F4002C7DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"belajar ama kak mora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "belajar ama kak mora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-mora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		862F631E25C111F4002C7DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "belajar ama kak moraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-moraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/belajar ama kak mora.app/belajar ama kak mora";
+			};
+			name = Debug;
+		};
+		862F631F25C111F4002C7DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "belajar ama kak moraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-moraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/belajar ama kak mora.app/belajar ama kak mora";
+			};
+			name = Release;
+		};
+		862F632125C111F4002C7DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "belajar ama kak moraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-moraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "belajar ama kak mora";
+			};
+			name = Debug;
+		};
+		862F632225C111F4002C7DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "belajar ama kak moraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.belajar-ama-kak-moraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "belajar ama kak mora";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862F62EB25C111F2002C7DA7 /* Build configuration list for PBXProject "belajar ama kak mora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F631825C111F4002C7DA7 /* Debug */,
+				862F631925C111F4002C7DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862F631A25C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak mora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F631B25C111F4002C7DA7 /* Debug */,
+				862F631C25C111F4002C7DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862F631D25C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak moraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F631E25C111F4002C7DA7 /* Debug */,
+				862F631F25C111F4002C7DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862F632025C111F4002C7DA7 /* Build configuration list for PBXNativeTarget "belajar ama kak moraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F632125C111F4002C7DA7 /* Debug */,
+				862F632225C111F4002C7DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 862F62E825C111F2002C7DA7 /* Project object */;
+}
